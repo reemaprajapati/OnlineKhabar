@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="85dip"
+            android:layout_height="70dip"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="News Title"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dp"
+        android:id="@+id/news_title"
+      />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="12dip"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"
+
+        android:text="Date"
+        android:id="@+id/date"
+        android:layout_alignParentRight="true"
+        android:paddingTop="50dp"
+        android:layout_marginRight="5dip"
+
+
+        />
+
+
+</RelativeLayout>

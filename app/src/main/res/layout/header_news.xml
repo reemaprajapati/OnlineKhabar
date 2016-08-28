@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+   >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvnewstitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NewsTitle"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:paddingTop="2dp"
+
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                />
+
+
+
+            <ImageView
+                android:id="@+id/ivimageview"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/tvnewstitle"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:id="@+id/tvdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="date"
+                android:textSize="14dp"
+                android:paddingTop="5dp"
+                android:textColor="#10bcc9"
+                android:padding="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/ivimageview"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/tvnewsbody"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NewsBody"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/tvdate"
+                android:layout_centerHorizontal="true"
+                />
+
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:id="@+id/et_comment"
+                android:paddingRight="10dp"
+                android:paddingLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="प्रतिक्रिया दिनुहोस।"
+                android:textSize="15dp"
+                android:backgroundTint="#EDF2E7"
+                android:layout_alignBottom="@+id/btn_comment"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/btn_comment"
+                android:background="@drawable/rounded_edittext"
+                />
+
+            <Button
+                android:id="@+id/btn_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Comment"
+                android:layout_marginRight="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/round_blue"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#fff"
+                android:textSize="15dp"
+
+                android:layout_below="@+id/tvnewsbody"
+                android:layout_alignParentEnd="true" />
+
+
+        </RelativeLayout>
+
+
+</ScrollView>
