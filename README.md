@@ -1,6 +1,6 @@
 # OnlineKhabar 
 ##Introduction
-Online Khabar is an online news portal android application. It is a project that I have been working on and is not complete yet.
+Online Khabar is an online news portal android application. It is a project that I have been working on and is not complete yet.I have used MySQL database for storing the news.
 Following are the screenshots of different activities and fragments of the application.
 
 ###[Login](https://github.com/reemaprajapati/OnlineKhabar/blob/master/app/src/main/java/com/example/otimus/myapplication/Activities/Login.java)
